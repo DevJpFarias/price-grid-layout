@@ -1,8 +1,11 @@
 .grid-container .item-3 {
-  padding: 30px 0px 20px 30px;
+  padding: 1.875rem 0px 1.25rem 1.875rem;
 
   color: #ffffff;
   background-color: #48D1CC;
+
+  grid-column: span 1;
+  grid-row: span 1;
 }
 
 .item-3 {
@@ -10,13 +13,9 @@
 }
 
 .item-3 .title {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .item-3 .texts {
-  padding-top: 1px;
-}
-
-.item-3 .text {
-  
+  padding-top: 0.0625rem;
 }

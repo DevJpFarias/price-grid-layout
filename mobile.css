@@ -1,0 +1,13 @@
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-container .item-1 {
+    grid-column: span 1;
+  }
+
+  .item-2 .sign-up {
+    width: 19rem;
+  }
+}
