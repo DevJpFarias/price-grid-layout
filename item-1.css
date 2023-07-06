@@ -1,0 +1,24 @@
+.grid-container .item-1 {
+  padding: 25px 180px 30px 30px;
+
+  grid-column: 1/3;
+  grid-row: 1;
+}
+
+.item-1 .title {
+  color: #00CED1;
+  font-size: 20px;
+}
+
+.item-1 .texts {
+  padding-top: 2px;
+}
+
+.item-1 .sub-title {
+  color: #00FF7F;
+  font-size: 14px;
+}
+
+.item-1 .text {
+  color: #40E0D0;
+}

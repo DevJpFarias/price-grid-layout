@@ -1,0 +1,55 @@
+.grid-container .item-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  color: #ffffff;
+  background-color: #00CED1;
+}
+
+.item-2 .title {
+  font-size: 16px;
+  padding-left: 30px;
+}
+
+.item-2 .price-div {
+  padding-left: 30px;
+}
+
+.item-2 .text-price {
+  color: #87f3e8;
+  margin-left: 5px;
+}
+
+.item-2 .price {
+
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.item-2 .button-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 22px;
+}
+
+.item-2 .sign-up {
+  height: 45px;
+  width: 200px;
+  background-color: #7CFC00;
+  color: #ffffff;
+  border-radius: 10px;
+  border-color: transparent;
+  font-size: 15px;
+  font-weight: bold;
+
+  transition-property: background-color;
+  transition-duration: .5s;
+}
+
+.item-2 .sign-up:hover {
+  background-color: #7efc00b9;
+}
